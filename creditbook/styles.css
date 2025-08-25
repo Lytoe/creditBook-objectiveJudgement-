@@ -1,0 +1,17 @@
+/* Minimal dark */
+body { margin:0; font-family:system-ui,sans-serif; background:#000; color:#fff; }
+.hidden { display:none; }
+
+/* Cards */
+.card { border:1px solid #444; padding:12px; margin:8px 16px; border-radius:8px; }
+.card.negative { background:#400; }
+
+/* Inputs */
+label { display:block; margin:8px 0 4px; }
+input, select, textarea { width:100%; padding:8px; background:#111; color:#fff; border:1px solid #333; border-radius:6px; }
+button { padding:8px 12px; border:1px solid #333; background:#111; color:#fff; border-radius:6px; cursor:pointer; }
+button.danger { background:#300; border-color:#500; }
+.row { display:flex; gap:8px; margin-top:8px; }
+
+/* Floating add button */
+.fab { position:fixed; right:16px; bottom:16px; width:48px; height:48px; border-radius:50%; font-size:22px; }
